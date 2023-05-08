@@ -1,13 +1,13 @@
 export interface ICharacter {
-  id: number;
-  name: string;
-  image: string;
-  species: string;
-  gender: string;
+  id: number
+  name: string
+  image: string
+  species: string
+  gender: string
 }
 
 interface IProps {
-  character: ICharacter;
+  character: ICharacter
 }
 
 export default function CharacterCard ({ character }: IProps) {
